@@ -8,6 +8,19 @@
   align-items: center;
 }
 
+.navbar_bottom {
+  padding: 20px;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar_top a {
   color: white;
   text-decoration: none;
@@ -36,61 +49,128 @@
   display: block;
   height: 250px;
 }
+
 figure h1 {
   color: red;
   font-weight: bold;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
-.latest_news_cards {
+.latest_deals_cards,
+.latest_news_cards,
+.funding_rounds_cards {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   align-items: center;
   margin-left: 300px;
   margin-right: 300px;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.latest_deals {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-gap: 10px;
-  align-items: center;
-  margin-left: 300px;
-  margin-right: 300px;
-  justify-content: center;
-}
-
-.latest_news h1 {
+.latest_news,
+.latest_deals h1 {
   color: red;
   font-weight: bold;
-  font-size:2rem;
+  font-size: 2rem;
   margin-left: 150px;
   margin-top: 1rem;
-
 }
 
-
-
-.latest_news_cards img {
-  width:300px;
+.latest_news_cards,
+.latest_deals_cards img {
+  width: 300px;
 }
+
+.funding_rounds {
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 .funding_rounds_cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.funding_header {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+}
+
+.funding_header h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.funding_rounds_cards img {
+  width: 300px;
 }
 
 .podium_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
+  grid-gap: 10px;
+  width: 70%;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 2rem;
+}
+
+.podium_images p {
+  line-height: 30px;
+}
+
+.podium_images h1 {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .podium_images img {
   height: 400px;
-  width:400px;
+  width: 350px;
 }
 
+.footer_details {
+  background-color: black;
+  height: 250px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 3rem;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.media_icons,
+.last_footer {
+  padding-bottom: 2rem;
+}
+
+.media_icons i {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.last_footer a {
+  padding: 0.5rem;
+}
+
+.bottom_lower img {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+}
+
+.bottom_lower {
+  display: flex;
+  justify-content: center;
+}
