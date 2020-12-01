@@ -1,0 +1,23 @@
+.navbar_top {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+
+.navbar_top a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar_bottom a {
+  color: grey;
+  text-decoration: none;
+  height: 30px;
+  align-items: center;
+  padding: 5px;
+}
