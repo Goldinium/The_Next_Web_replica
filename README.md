@@ -1,65 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Replication of "The Next Web"
 
-> One paragraph statement about the project.
+> A replication of the index webpage.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML / CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+[Live Demo Link](https://goldinium.github.io/The_Next_Web_replica/)
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Clone using SSH:
+git@github.com:Goldinium/The_Next_Web_replica.git
 
-### Setup
+- Clone using HTTPS:
+https://github.com/Goldinium/The_Next_Web_replica.git
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Or just download the repository zip
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Goldinium**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Goldinium](https://github.com/Goldinium)
 
-👤 **Author2**
+👤 **ZawadiSumba66**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@ZawadiSumba66](https://github.com/ZawadiSumba66)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Goldinium/The_Next_Web_replica/issues).
 
 ## Show your support
 
@@ -68,9 +48,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
