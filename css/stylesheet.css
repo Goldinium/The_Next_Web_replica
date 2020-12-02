@@ -86,7 +86,7 @@ footer a {
 }
 
 .three_next_web {
-  display: flex;
+  display: grid;
 }
 
 .bold {
@@ -94,15 +94,20 @@ footer a {
 }
 
 .first_top {
-  width: 1000px;
-  height: 500px;
+
+  background-image: url("../images/AI.jpg");
 }
 
-.two_left img {
-  width: 520px;
-  display: block;
-  height: 250px;
+.two_left #second_pic {
+
+  background-image: url("../images/amsterdam_city.png");
 }
+
+.two_left #third_pic {
+
+  background-image: url("../images/cars_elephents.jpg");
+}
+
 
 figure h1 {
   color: red;
