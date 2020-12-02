@@ -6,20 +6,44 @@
   justify-content: space-between;
   height: 30px;
   align-items: center;
+  font-size: small;
 }
 
 .navbar_bottom {
   padding: 20px;
   align-items: center;
-  position: fixed;
   background-color: white;
+  position: fixed;
   width: 100%;
+  font-size: small;
 }
 
-footer a {
+.dropbtn {
+  background-color: #000;
   color: white;
-  text-decoration: none;
+  border: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000;}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 .navbar_top a {
   color: white;
@@ -33,6 +57,13 @@ footer a {
   height: 30px;
   align-items: center;
   padding: 5px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .three_next_web {
@@ -138,7 +169,7 @@ figure h1 {
 }
 
 .footer_details {
-  background-color: black;
+  background-color: #131313;
   height: 250px;
   text-align: center;
   align-content: center;
@@ -148,6 +179,12 @@ figure h1 {
   margin-top: 3rem;
   width: 100%;
   padding-top: 3rem;
+  font-size: small;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
 .media_icons,
@@ -164,13 +201,11 @@ figure h1 {
   padding: 0.5rem;
 }
 
-.bottom_lower img {
-  height: 40px;
-  width: 40px;
-  margin-top: -10px;
-}
-
-.bottom_lower {
+.bottom_lower span {
   display: flex;
+  background-color: black;
   justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-size: small;
 }
