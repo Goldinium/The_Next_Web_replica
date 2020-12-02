@@ -1,3 +1,4 @@
+
 .navbar_top {
   background-color: black;
   width: 100%;
@@ -13,9 +14,12 @@
   padding: 20px;
   align-items: center;
   background-color: white;
-  position: fixed;
   width: 100%;
   font-size: small;
+}
+
+.navbar_bottom i {
+  margin-right: 5rem;
 }
 
 .nav_icons {
@@ -267,8 +271,15 @@ figure h1 {
     padding: 10px;
   }
 
-  .fa-search {
+  .fa-bars {
     padding-left: 10px;
+    font-size: 1.5rem;
+    color: red;
+  }
+
+  .fa-search {
+    font-size: 1.2rem;
+    color: grey;
   }
 
   .three_next_web {
