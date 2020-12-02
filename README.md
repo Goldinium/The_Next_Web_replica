@@ -4,7 +4,7 @@
 
 > A replication of the index webpage.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
