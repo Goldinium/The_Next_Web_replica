@@ -81,6 +81,10 @@ footer a {
   display: flex;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .first_top {
   width: 1000px;
   height: 500px;
@@ -160,6 +164,8 @@ figure h1 {
   grid-gap: 10px;
   justify-content: center;
   margin-top: 2rem;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .podium_images p {
@@ -210,12 +216,85 @@ figure h1 {
   font-size: small;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
+  .top_image {
+    width: 500px;
+  }
+
   .two_left img {
-    width:260px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .top_image {
+    width: 250px;
+  }
+
+  .two_left img {
+    width: 200px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .three_next_web {
+    display: block;
+  }
+
+  .three_next_web img {
+    width: 100%;
+  }
+
+  .latest_deals_cards {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    justify-self: start;
+  }
+
+  .latest_1 {
+    display: flex;
+  }
+
+  .latest_deals_cards img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .funding_rounds_cards {
+    display: block;
+    margin: 0;
+  }
+
+  .funding_rounds {
+    margin: 0;
+    width: 470px;
+  }
+
+  .funding_rounds img {
+    margin: 0;
+    width: 470px;
+  }
+
+  .main_content {
+    display: block;
+    margin: 0;
+    width: 400px;
+  }
+
+  .latest_1 p {
+    padding-top: 20px;
+  }
+
+  .podium_images {
+    display: block;
+    justify-content: stretch;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .podium_images img {
+    width: 470px;
+  }
 }
