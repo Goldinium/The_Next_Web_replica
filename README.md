@@ -22,7 +22,7 @@ git@github.com:Goldinium/The_Next_Web_replica.git
 - Clone using HTTPS:
 https://github.com/Goldinium/The_Next_Web_replica.git
 
--Or just download the repository zip
+- Or just download the repository zip
 
 
 ## Authors
