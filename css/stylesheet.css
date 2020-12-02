@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 
 .navbar_top {
   background-color: black;
@@ -16,6 +19,10 @@
   background-color: white;
   width: 100%;
   font-size: small;
+}
+
+.navbar_bottom .fa-search {
+  float: right;
 }
 
 .navbar_bottom i {
@@ -108,7 +115,6 @@ footer a {
 
 }
 
-
 figure h1 {
   color: red;
   font-weight: bold;
@@ -116,7 +122,6 @@ figure h1 {
 }
 
 .latest_deals_cards,
-.latest_news_cards,
 .funding_rounds_cards {
   margin-top: 1rem;
   display: grid;
@@ -158,13 +163,13 @@ figure h1 {
 
 .funding_header {
   display: flex;
-  justify-content: space-between;
   color: red;
 }
 
 .funding_header h1 {
   font-weight: bold;
   font-size: 2rem;
+  left: 0;
 }
 
 .funding_rounds_cards img {
@@ -196,16 +201,18 @@ figure h1 {
   width: 350px;
 }
 
-.footer_details {
+footer {
   background-color: #131313;
+  width: 100%;
+}
+
+.footer_details {
   height: 250px;
   text-align: center;
   align-content: center;
   justify-content: center;
-  align-items: center;
   color: white;
   margin-top: 3rem;
-  width: 100%;
   padding-top: 3rem;
   font-size: small;
 }
