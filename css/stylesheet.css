@@ -18,6 +18,10 @@
   font-size: small;
 }
 
+.nav_icons {
+  display: none;
+}
+
 .dropbtn {
   background-color: #000;
   color: white;
@@ -237,12 +241,43 @@ figure h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar_top,
+  .navbar_bottom {
+    display: none;
+  }
+
+  .nav_icons {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .nav_icons img {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    padding: 0 5px;
+  }
+
+  .left_icons {
+    padding: 10px;
+  }
+
+  .fa-search {
+    padding-left: 10px;
+  }
+
   .three_next_web {
     display: block;
   }
 
   .three_next_web img {
     width: 100%;
+    height: 300px;
   }
 
   .latest_deals_cards {
