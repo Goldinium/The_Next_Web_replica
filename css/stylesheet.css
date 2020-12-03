@@ -158,6 +158,8 @@ footer a {
   position: absolute;
   top: 8px;
   left: 16px;
+  height: 10%;
+  width: 20%;
 }
 
 .bold {
