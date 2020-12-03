@@ -87,11 +87,6 @@ footer a {
   display: block;
 }
 
-.main_content {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
 .header_photos_grid_container {
   display: grid;
   grid-gap: 10px;
@@ -172,17 +167,21 @@ figure h1 {
   font-size: 2rem;
 }
 
+.latest_deals {
+  justify-content: center;
+  width: 100%;
+}
+
 .latest_deals_cards,
 .funding_rounds_cards {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  align-items: center;
-  margin-left: 300px;
-  margin-right: 300px;
   justify-content: center;
   margin-bottom: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .latest_news,
@@ -191,7 +190,8 @@ figure h1 {
   font-weight: bold;
   font-size: 2rem;
   margin-top: 1rem;
-  text-align: left;
+  margin-left: 10%;
+  margin-right: 25%;
 }
 
 .latest_news_cards,
@@ -200,9 +200,6 @@ figure h1 {
 }
 
 .funding_rounds {
-  margin-left: 150px;
-  margin-right: 150px;
-  align-items: center;
   margin-top: 2rem;
 }
 
@@ -215,12 +212,15 @@ figure h1 {
 .funding_header {
   display: flex;
   color: red;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .funding_header h1 {
   font-weight: bold;
   font-size: 2rem;
   left: 0;
+  flex: 1;
 }
 
 .funding_rounds_cards img {
@@ -229,12 +229,10 @@ figure h1 {
 
 .podium_images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 410px 410px 410px;
   grid-gap: 10px;
   justify-content: center;
   margin-top: 2rem;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
 .podium_images p {
@@ -249,7 +247,7 @@ figure h1 {
 
 .podium_images img {
   height: 400px;
-  width: 350px;
+  width: 400px;
 }
 
 footer {
@@ -310,6 +308,7 @@ footer {
 
   .funding_header {
     display: block;
+    margin-left: 0;
   }
 
   .funding_rounds_cards img {
@@ -364,8 +363,33 @@ footer {
     height: 500px;
   }
 
+  .round_1_one {
+    display: none;
+  }
+
   .main_content {
     margin: 10px;
+    width: 100%;
+  }
+
+  .latest_news,
+  .latest_deals h1 {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .latest_deals_cards img {
+    width: 300px;
+  }
+
+  .latest_deals {
+    width: 100%;
+  }
+
+  .main_content {
+    margin: 10px;
+    max-width: 928px;
   }
 }
 
