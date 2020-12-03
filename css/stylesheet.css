@@ -95,15 +95,13 @@ footer a {
 .header_photos_grid_container {
   display: grid;
   grid-gap: 10px;
-  height: 30vh;
+  height: 60vh;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
     "big_pic small_pic2"
     "big_pic small_pic3"
 }
-
-
 
 .grid_item1 {
   grid-area: big_pic;
@@ -135,22 +133,25 @@ footer a {
  font-size: 40px;
  color: white;
  font-weight: bold;
+ padding: 10px;
 }
 
 .grid_item2_text {
   position: absolute;
   bottom: 20%;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   font-weight: bold;
+  padding: 10px;
  }
 
  .grid_item3_text {
   position: absolute;
   bottom: 20%;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   font-weight: bold;
+  padding: 10px;
  }
 
 .header_image_logo {
@@ -312,7 +313,42 @@ footer {
   .funding_rounds_cards img {
     width: 300px;
   }
+  
+  .grid_item1_text {
+    position: absolute;
+    bottom: 5%;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+   }
+   
+   .grid_item2_text {
+     position: absolute;
+     bottom: 10%;
+     font-size: 25px;
+     color: white;
+     font-weight: bold;
+    }
+   
+    .grid_item3_text {
+     position: absolute;
+     bottom: 10%;
+     font-size: 25px;
+     color: white;
+     font-weight: bold;
+    }
 
+    .nav_icons img {
+      background-color: black;
+      height: 50px;
+      width: 100px;
+      padding: 0 5px;
+    }
+
+   .header_image_logo {
+     display: none;
+   }
+   
   .podium_images {
     grid-template-columns: auto auto;
     margin-left: 20px;
@@ -325,11 +361,13 @@ footer {
     width: 400px;
     height: 500px;
   }
-
   .nav_icons img {
-    display: block;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    padding: 0 5px;
   }
-
+  
   .main_content {
     margin: 10px;
   }
@@ -340,6 +378,28 @@ footer {
   .navbar_bottom {
     display: none;
   }
+
+  .header_image_logo {
+    display: none;
+  }
+
+  .header_photos_grid_container {
+    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "big_pic"
+    "small_pic2"
+    "small_pic3"
+  }
+
+  .grid_item1_text {
+    position: absolute;
+    bottom: 5%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+   }
 
   .funding_header {
     display: block;
@@ -353,6 +413,7 @@ footer {
     background-color: white;
     width: 100%;
     padding-bottom: 5px;
+    z-index: 1;
   }
 
   .nav_icons img {
@@ -375,15 +436,6 @@ footer {
   .fa-search {
     font-size: 1.2rem;
     color: grey;
-  }
-
-  .three_next_web {
-    display: block;
-  }
-
-  .three_next_web img {
-    width: 100%;
-    height: 300px;
   }
 
   .latest_deals_cards {
