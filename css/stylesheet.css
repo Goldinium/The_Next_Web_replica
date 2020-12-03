@@ -233,23 +233,54 @@ footer {
   font-size: small;
 }
 
-@media screen and (max-width: 1300px) {
-  .top_image {
-    width: 500px;
+@media screen and (max-width: 1024px) {
+  .latest_deals_cards,
+  .funding_rounds_cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  .two_left img {
+  .funding_rounds {
+    margin: 0;
+    width: 100%;
+  }
+
+  .latest_1 {
     width: 300px;
   }
-}
 
-@media screen and (max-width: 1245px) {
-  .top_image {
-    width: 250px;
+  .latest_deals_cards img {
+    width: 300px;
   }
 
-  .two_left img {
-    width: 200px;
+  .funding_header {
+    display: block;
+  }
+
+  .funding_rounds_cards img {
+    width: 300px;
+  }
+
+  .podium_images {
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 0;
+    width: 100%;
+  }
+
+  .podium_images img {
+    width: 400px;
+    height: 500px;
+  }
+
+  .nav_icons img {
+    display: block;
+  }
+
+  .main_content {
+    margin: 10px;
   }
 }
 
@@ -257,6 +288,10 @@ footer {
   .navbar_top,
   .navbar_bottom {
     display: none;
+  }
+
+  .funding_header {
+    display: block;
   }
 
   .nav_icons {
@@ -309,6 +344,7 @@ footer {
 
   .latest_1 {
     display: flex;
+    width: 100%;
   }
 
   .latest_deals_cards img {
@@ -317,25 +353,26 @@ footer {
     margin: 10px;
   }
 
-  .funding_rounds_cards {
-    display: block;
-    margin: 0;
-  }
-
   .funding_rounds {
     margin: 0;
-    width: 470px;
   }
 
-  .funding_rounds img {
+  .funding_rounds_cards {
+    display: inline-block;
+    width: 100%;
+    justify-self: start;
     margin: 0;
-    width: 470px;
+  }
+
+  .funding_rounds_cards img {
+    width: 100%;
+    height: 200px;
   }
 
   .main_content {
     display: block;
     margin: 0;
-    width: 400px;
+    width: 100%;
   }
 
   .latest_1 p {
@@ -343,13 +380,13 @@ footer {
   }
 
   .podium_images {
+    margin: 0;
+    width: 100%;
     display: block;
-    justify-content: stretch;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .podium_images img {
-    width: 470px;
+    width: 100%;
+    height: 700px;
   }
 }
