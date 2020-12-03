@@ -92,24 +92,75 @@ footer a {
   margin-right: 25%;
 }
 
-.three_next_web {
+.header_photos_grid_container {
   display: grid;
+  grid-gap: 10px;
+  height: 30vh;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "big_pic small_pic2"
+    "big_pic small_pic3"
+}
+
+
+
+.grid_item1 {
+  grid-area: big_pic;
+  background: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(255,0,0,0.2)), url("images/AI.jpg");
+}
+
+.grid_item2 {
+  grid-area: small_pic2;
+  background: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("images/amsterdam_city.png");
+}
+
+.grid_item3 {
+  grid-area: small_pic3;
+  background: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0.1)), url("images/cars_elephents.jpg");
+}
+
+.grid_item1_text {
+ position: absolute;
+ bottom: 20%;
+ font-size: 40px;
+ color: white;
+ font-weight: bold;
+}
+
+.grid_item2_text {
+  position: absolute;
+  bottom: 20%;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+ }
+
+ .grid_item3_text {
+  position: absolute;
+  bottom: 20%;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+ }
+
+.header_image_logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 .bold {
   font-weight: bold;
-}
-
-.first_top {
-  background-image: url("../images/AI.jpg");
-}
-
-.two_left #second_pic {
-  background-image: url("../images/amsterdam_city.png");
-}
-
-.two_left #third_pic {
-  background-image: url("../images/cars_elephents.jpg");
 }
 
 figure h1 {
