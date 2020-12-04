@@ -19,10 +19,12 @@ body {
   background-color: white;
   width: 100%;
   font-size: small;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar_bottom .fa-search {
-  float: right;
+  right: 0;
 }
 
 .navbar_bottom i {
@@ -370,6 +372,7 @@ footer {
   .main_content {
     margin: 10px;
     width: 100%;
+    min-width: 768px;
   }
 
   .latest_news,
