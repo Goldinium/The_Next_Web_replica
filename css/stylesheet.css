@@ -1,5 +1,6 @@
-body {
-  overflow-x: hidden;
+.navbar {
+  width: 100%;
+  overflow: hidden;
 }
 
 .navbar_top {
@@ -21,10 +22,6 @@ body {
   font-size: small;
   display: flex;
   justify-content: space-between;
-}
-
-.navbar_bottom .fa-search {
-  right: 0;
 }
 
 .navbar_bottom i {
@@ -90,6 +87,7 @@ footer a {
 }
 
 .header_photos_grid_container {
+  margin: auto;
   display: grid;
   grid-gap: 10px;
   height: 60vh;
@@ -136,7 +134,7 @@ footer a {
 .grid_item2_text {
   position: absolute;
   bottom: 20%;
-  font-size: 35px;
+  font-size: 27px;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -145,7 +143,7 @@ footer a {
 .grid_item3_text {
   position: absolute;
   bottom: 20%;
-  font-size: 35px;
+  font-size: 27px;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -163,6 +161,11 @@ footer a {
   font-weight: bold;
 }
 
+.main_content {
+  width: 70%;
+  margin: auto;
+}
+
 figure h1 {
   color: red;
   font-weight: bold;
@@ -171,7 +174,6 @@ figure h1 {
 
 .latest_deals {
   justify-content: center;
-  width: 100%;
 }
 
 .latest_deals_cards,
@@ -180,10 +182,13 @@ figure h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  justify-content: center;
   margin-bottom: 2rem;
-  margin-left: 25%;
-  margin-right: 25%;
+  justify-content: center;
+  width: 100%;
+}
+
+.body_pics {
+  width: 220px;
 }
 
 .latest_news,
@@ -193,12 +198,7 @@ figure h1 {
   font-size: 2rem;
   margin-top: 1rem;
   margin-left: 10%;
-  margin-right: 25%;
-}
-
-.latest_news_cards,
-.latest_deals_cards img {
-  width: 300px;
+  margin-right: 10%;
 }
 
 .funding_rounds {
@@ -225,13 +225,9 @@ figure h1 {
   flex: 1;
 }
 
-.funding_rounds_cards img {
-  width: 300px;
-}
-
 .podium_images {
   display: grid;
-  grid-template-columns: 410px 410px 410px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   justify-content: center;
   margin-top: 2rem;
@@ -249,7 +245,7 @@ figure h1 {
 
 .podium_images img {
   height: 400px;
-  width: 400px;
+  width: 300px;
 }
 
 footer {
@@ -295,26 +291,18 @@ footer {
     margin-right: 10px;
   }
 
+  .body_pics {
+    width: 220px;
+  }
+
   .funding_rounds {
     margin: 0;
     width: 100%;
   }
 
-  .latest_1 {
-    width: 300px;
-  }
-
-  .latest_deals_cards img {
-    width: 300px;
-  }
-
   .funding_header {
     display: block;
     margin-left: 0;
-  }
-
-  .funding_rounds_cards img {
-    width: 300px;
   }
 
   .grid_item1_text {
@@ -361,7 +349,7 @@ footer {
   }
 
   .podium_images img {
-    width: 400px;
+    width: 350px;
     height: 500px;
   }
 
@@ -370,29 +358,13 @@ footer {
   }
 
   .main_content {
-    margin: 10px;
-    width: 100%;
-    min-width: 768px;
+    width: 80%;
+    margin: auto;
   }
 
   .latest_news,
   .latest_deals h1 {
     margin-left: 2px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .latest_deals_cards img {
-    width: 300px;
-  }
-
-  .latest_deals {
-    width: 100%;
-  }
-
-  .main_content {
-    margin: 10px;
-    max-width: 928px;
   }
 }
 
@@ -513,6 +485,6 @@ footer {
 
   .podium_images img {
     width: 100%;
-    height: 700px;
+    height: 500px;
   }
 }
