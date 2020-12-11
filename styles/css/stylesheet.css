@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .navbar {
   width: 100%;
@@ -199,8 +202,6 @@ figure h1 {
   font-weight: bold;
   font-size: 2rem;
   margin-top: 1rem;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .funding_rounds {
@@ -216,8 +217,6 @@ figure h1 {
 .funding_header {
   display: flex;
   color: red;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .funding_header h1 {
