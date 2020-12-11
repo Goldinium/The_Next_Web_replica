@@ -1,0 +1,496 @@
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .navbar_top {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    font-size: small;
+  }
+  
+  .navbar_bottom {
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar_bottom i {
+    margin-right: 5rem;
+  }
+  
+  .nav_icons {
+    display: none;
+  }
+  
+  .dropbtn {
+    background-color: #000;
+    color: white;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a {
+    display: block;
+  }
+  
+  .navbar_top a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar_bottom a {
+    color: grey;
+    text-decoration: none;
+    height: 30px;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .last_footer a {
+    padding: 0.5rem;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .header_photos_grid_container {
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    height: 70vh;
+    padding: 0.5rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "big_pic small_pic2"
+      "big_pic small_pic3";
+  }
+  
+  .grid_item1 {
+    grid-area: big_pic;
+    background: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.7)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Visa-MasterCard-Pornhub-796x419.jpg");
+  }
+  
+  .grid_item2 {
+    grid-area: small_pic2;
+    background: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnag_654b389.png&signature=4c46ff8639c38ed98a805f62cfb3e24a")
+  }
+  
+  .grid_item3 {
+    grid-area: small_pic3;
+    background: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/HBO-Max-Queue-796x415.jpg");
+  }
+  
+  .grid_item1_text {
+    position: absolute;
+    bottom: 20%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .grid_item2_text {
+    position: absolute;
+    bottom: 20%;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .grid_item3_text {
+    position: absolute;
+    bottom: 20%;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .header_image_logo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    height: 30%;
+    width: 20%;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .main_content {
+    width: 70%;
+    margin: auto;
+  }
+  
+  figure h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .latest_deals {
+    justify-content: center;
+  }
+  
+  .latest_deals_cards,
+  .funding_rounds_cards {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .body_pics {
+    width: 220px;
+  }
+  
+  .latest_news,
+  .latest_deals h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .funding_rounds {
+    margin-top: 2rem;
+  }
+  
+  .funding_rounds_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .funding_header {
+    display: flex;
+    color: red;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .funding_header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    left: 0;
+    flex: 1;
+  }
+  
+  .podium_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .podium_images p {
+    line-height: 30px;
+  }
+  
+  .podium_images h1 {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .podium_images img {
+    height: 400px;
+    width: 300px;
+  }
+  .latest_1 img {
+    position: relative;
+  }
+  
+  footer {
+    background-color: #131313;
+    width: 100%;
+  }
+  
+  .footer_details {
+    height: 250px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: small;
+  }
+  
+  .media_icons,
+  .last_footer {
+    padding-bottom: 2rem;
+  }
+  
+  .media_icons i {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .bottom_lower span {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-size: small;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .latest_deals_cards,
+    .funding_rounds_cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .body_pics {
+      width: 220px;
+    }
+  
+    .funding_rounds {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .funding_header {
+      display: block;
+      margin-left: 0;
+    }
+  
+    .grid_item1_text {
+      position: absolute;
+      bottom: 5%;
+      font-size: 35px;
+      color: white;
+      font-weight: bold;
+    }
+  
+    .grid_item2_text {
+      position: absolute;
+      bottom: 10%;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+  
+    .grid_item3_text {
+      position: absolute;
+      bottom: 10%;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+  
+    .nav_icons img {
+      background-color: black;
+      height: 50px;
+      width: 100px;
+      padding: 0 5px;
+    }
+  
+    .header_image_logo {
+      display: none;
+    }
+  
+    .podium_images {
+      grid-template-columns: auto auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      grid-gap: 0;
+      width: 100%;
+    }
+  
+    .podium_images img {
+      width: 350px;
+      height: 500px;
+    }
+  
+    .round_1_one {
+      display: none;
+    }
+  
+    .main_content {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .latest_news,
+    .latest_deals h1 {
+      margin-left: 2px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar_top,
+    .navbar_bottom {
+      display: none;
+    }
+  
+    .header_image_logo {
+      display: none;
+    }
+  
+    .header_photos_grid_container {
+      grid-template-columns: 1fr;
+      height: 100vh;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        "big_pic"
+        "small_pic2"
+        "small_pic3";
+    }
+  
+    .grid_item1_text {
+      position: absolute;
+      bottom: 5%;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+  
+    .funding_header {
+      display: block;
+    }
+  
+    .nav_icons {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      background-color: white;
+      width: 100%;
+      padding-bottom: 5px;
+      z-index: 1;
+    }
+  
+    .nav_icons img {
+      background-color: black;
+      height: 50px;
+      width: 100px;
+      padding: 0 5px;
+    }
+  
+    .left_icons {
+      padding: 10px;
+    }
+  
+    .fa-bars {
+      padding-left: 10px;
+      font-size: 1.5rem;
+      color: red;
+    }
+  
+    .fa-search {
+      font-size: 1.2rem;
+      color: grey;
+    }
+  
+    .latest_deals_cards {
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+      justify-self: start;
+    }
+  
+    .latest_1 {
+      display: flex;
+      width: 100%;
+    }
+  
+    .latest_deals_cards img {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+  
+    .funding_rounds {
+      margin: 0;
+    }
+  
+    .funding_rounds_cards {
+      display: inline-block;
+      width: 100%;
+      justify-self: start;
+      margin: 0;
+    }
+  
+    .funding_rounds_cards img {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .main_content {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+  
+    .latest_1 p {
+      padding-top: 20px;
+    }
+  
+    .podium_images {
+      margin: 0;
+      width: 100%;
+      display: block;
+    }
+  
+    .podium_images img {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  
