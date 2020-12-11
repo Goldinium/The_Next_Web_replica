@@ -1,3 +1,4 @@
+
 .navbar {
   width: 100%;
   overflow: hidden;
@@ -90,7 +91,8 @@ footer a {
   margin: auto;
   display: grid;
   grid-gap: 10px;
-  height: 60vh;
+  height: 70vh;
+  padding: 0.5rem;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -103,7 +105,7 @@ footer a {
   background: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(255, 0, 0, 0.2)), url("images/AI.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.7)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Visa-MasterCard-Pornhub-796x419.jpg");
 }
 
 .grid_item2 {
@@ -111,7 +113,7 @@ footer a {
   background: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("images/amsterdam_city.png");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnag_654b389.png&signature=4c46ff8639c38ed98a805f62cfb3e24a")
 }
 
 .grid_item3 {
@@ -119,7 +121,7 @@ footer a {
   background: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("images/cars_elephents.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/HBO-Max-Queue-796x415.jpg");
 }
 
 .grid_item1_text {
@@ -153,7 +155,7 @@ footer a {
   position: absolute;
   top: 8px;
   left: 16px;
-  height: 10%;
+  height: 30%;
   width: 20%;
 }
 
@@ -246,6 +248,9 @@ figure h1 {
 .podium_images img {
   height: 400px;
   width: 300px;
+}
+.latest_1 img {
+  position: relative;
 }
 
 footer {
