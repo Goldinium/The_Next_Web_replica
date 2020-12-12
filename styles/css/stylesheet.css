@@ -139,7 +139,7 @@ footer a {
 .grid_item2_text {
   position: absolute;
   bottom: 20%;
-  font-size: 27px;
+  font-size: 23px;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -148,7 +148,7 @@ footer a {
 .grid_item3_text {
   position: absolute;
   bottom: 20%;
-  font-size: 27px;
+  font-size: 23px;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -248,13 +248,12 @@ figure h1 {
   height: 400px;
   width: 300px;
 }
-.latest_1 img {
-  position: relative;
-}
 
 footer {
   background-color: #131313;
   width: 100%;
+  bottom:0;
+  left:0;
 }
 
 .footer_details {
@@ -320,7 +319,7 @@ footer {
   .grid_item2_text {
     position: absolute;
     bottom: 10%;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
   }
@@ -328,7 +327,7 @@ footer {
   .grid_item3_text {
     position: absolute;
     bottom: 10%;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
   }
